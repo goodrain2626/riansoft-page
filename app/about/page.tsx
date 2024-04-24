@@ -12,19 +12,19 @@ export default function About() {
           <div className='flex gap-5'>
             <div className='w-48 h-48 overflow-hidden relative hover:translate-y-5 transition-all'>
               <span className='absolute top-0 right-0 z-10 text-right text-2xl text-white p-5'>사용자<br />중심</span>
-              <img src='../image/usercentered.jpeg' className='transition-all absolute top-0 left-0 w-52 h-52 object-cover object-right-bottom'/> {/* 수정된 이미지 경로 */}
+              <img src='../image/usercentered.jpeg' alt='a man looking at his client' className='transition-all absolute top-0 left-0 w-52 h-52 object-cover object-right-bottom'/> {/* 수정된 이미지 경로 */}
             </div>
             <div className='w-48 h-48 overflow-hidden relative hover:translate-y-5 transition-all'>
               <span className='absolute top-0 right-0 z-10 text-right text-2xl text-white p-5'>혁신적<br />사고</span>
-              <img src='../image/innovation.jpeg' className='group-hover:scale-150 transition-all absolute top-0 left-0 w-52 h-52 object-cover object-center'/> {/* 수정된 이미지 경로 */}
+              <img src='../image/innovation.jpeg' alt='robot' className='group-hover:scale-150 transition-all absolute top-0 left-0 w-52 h-52 object-cover object-center'/> {/* 수정된 이미지 경로 */}
             </div>
             <div className='w-48 h-48 overflow-hidden relative hover:translate-y-5 transition-all'>
               <span className='absolute top-0 right-0 z-10 text-right text-2xl text-white p-5'>쉬운<br/>경험</span>
-              <img src='../image/easyexperience.png' className='group-hover:scale-150 transition-all absolute top-0 left-0 w-52 h-52 object-cover object-center'/> {/* 수정된 이미지 경로 */}
+              <img src='../image/easyexperience.png' alt='kids participate in experiments with excitement' className='group-hover:scale-150 transition-all absolute top-0 left-0 w-52 h-52 object-cover object-center'/> {/* 수정된 이미지 경로 */}
             </div>
             <div className='w-48 h-48 overflow-hidden relative hover:translate-y-5 transition-all'>
               <span className='absolute top-0 right-0 z-10 text-right text-2xl text-white p-5'>새로운<br />기술</span>
-              <img src='../image/newtech.jpeg' className='group-hover:scale-150 transition-all absolute top-0 left-0 w-52 h-52 object-cover object-center'/> {/* 수정된 이미지 경로 */}
+              <img src='../image/newtech.jpeg' alt='two little kids reading books' className='group-hover:scale-150 transition-all absolute top-0 left-0 w-52 h-52 object-cover object-center'/> {/* 수정된 이미지 경로 */}
             </div>
           </div>
         </section>
